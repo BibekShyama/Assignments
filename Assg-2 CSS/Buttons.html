@@ -7,16 +7,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/buttons.css" />
-
+    <!--External-CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/button.css" />
+    <!--Google-font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <title>CSS Assignment</title>
+
+    <title>CSS Design - Buttons</title>
   </head>
   <body>
     <!--Navigation Header-->
@@ -25,28 +27,116 @@
         <div class="logo float-left"><h1>UI KIT</h1></div>
         <nav class="float-left">
           <ul>
-            <li class="float-left"><a href="./index.html">Color</a></li>
+            <li class="float-left">
+              <a href="./index.html">Color</a>
+            </li>
             <li class="float-left">
               <a href="./Typography.html">Typography</a>
             </li>
-            <li class="float-left"><a href="#">Buttons</a></li>
-            <li class="float-left"><a href="./Forms.html">Forms</a></li>
+            <li class="float-left">
+              <a href="#">Buttons</a>
+            </li>
+            <li class="float-left">
+              <a href="./Forms.html">Forms</a>
+            </li>
             <li class="float-left">
               <a href="./Listgroup.html">List Group</a>
             </li>
-            <li class="float-left"><a href="./Table.html">Table</a></li>
-            <li class="float-left"><a href="./Card.html">Card</a></li>
+            <li class="float-left">
+              <a href="./Table.html">Table</a>
+            </li>
+            <li class="float-left">
+              <a href="./Card.html">Card</a>
+            </li>
           </ul>
         </nav>
-        <div class="float-right search-container">
-          <input type="text" placeholder="Search" name="search-name" />
-          <button>Search</button>
+        <div class="float-right">
+          <div class="search-container">
+            <input type="text" placeholder="Search" />
+            <button>Search</button>
+          </div>
         </div>
       </div>
     </header>
+    <!--Body-Start-->
     <main>
       <div class="container">
-        <h1 class="primary-heading"><b>Tables</b></h1>
+        <h1 class="primary-heading">Buttons</h1>
+        <section class="btn-primary-container">
+          <h2 class="secondary-heading">
+            <b>Primary</b>
+          </h2>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>default</th>
+                <th>Outline</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>default</td>
+                <td>
+                  <button class="btn-primary">Primary</button>
+                </td>
+                <td>
+                  <button class="btn-primary-outline">Outline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hover</td>
+                <td>
+                  <button class="btn-primary-dark">Primary</button>
+                </td>
+                <td>
+                  <button class="btn-primary-dark-outline">Outline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>focus</td>
+                <td>
+                  <button class="btn-primary">Primary</button>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="btn-secondary-container">
+          <h2 class="heading-secondary border-bottom heading-pad">
+            <b>Secondary</b>
+          </h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>default</td>
+                <td>
+                  <button class="btn-secondary">Secondary</button>
+                </td>
+                <td>
+                  <button class="btn-secondary-outline">Outline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hover</td>
+                <td>
+                  <button class="btn-secondary-dark">Secondary</button>
+                </td>
+                <td>
+                  <button class="btn-secondary-dark-outline">Outline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>focus</td>
+                <td>
+                  <button class="btn-secondary">Secondary</button>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </div>
     </main>
   </body>

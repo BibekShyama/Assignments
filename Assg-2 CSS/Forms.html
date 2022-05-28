@@ -7,16 +7,17 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
+    <!--External-CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/forms.css" />
-
+    <!--Google-font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
-    <title>CSS Assignment</title>
+    <title>CSS Design - Forms</title>
   </head>
   <body>
     <!--Navigation Header-->
@@ -44,9 +45,190 @@
         </div>
       </div>
     </header>
+    <!--Body-Start-->
     <main>
       <div class="container">
-        <h1 class="primary-heading"><b>Tables</b></h1>
+        <h1 class="primary-heading">Forms</h1>
+        <section>
+          <div class="clearfix form">
+            <div class="float-left width-30">
+              <h2 class="secondary-heading">
+                <b>Components</b>
+              </h2>
+              <div class="form-components">
+                <div>Color</div>
+                <div>Typography</div>
+                <div>Buttons</div>
+                <div class="active">Forms</div>
+                <div>List Group</div>
+                <div>Table</div>
+                <div>Card</div>
+              </div>
+            </div>
+            <div class="float-left width-70">
+              <div class="input-fields">
+                <div>
+                  <h3>Input</h3>
+                  <input
+                    type="text"
+                    placeholder="Placeholder"
+                    name="input"
+                    id="inputForm"
+                    class="fields"
+                  />
+                </div>
+                <div>
+                  <h3>Select Menu</h3>
+                  <select id="selectMenu" name="select_menu" class="fields">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                  </select>
+                </div>
+                <div>
+                  <h3>Textarea</h3>
+                  <textarea id="textarea" name="textarea_input">
+Write your message here</textarea
+                  >
+                </div>
+
+                <div class="checkboxes">
+                  <h3>Checkboxes</h3>
+                  <div>
+                    <div class="inline-block">
+                      <h4>Checkboxes</h4>
+                      <div>
+                        <input type="checkbox" name="check-box" id="CheckBox" />
+                        <label for="CheckBox">Default CheckBox</label>
+                      </div>
+                      <div>
+                        <input
+                          type="checkbox"
+                          name="check-box"
+                          id="CheckBox"
+                          checked
+                        />
+                        <label for="CheckBox">Default checkbox</label>
+                      </div>
+                      <div>
+                        <input
+                          type="checkbox"
+                          name="check-box"
+                          id="CheckBox"
+                          disabled
+                        />
+                        <label for="CheckBox">Default (disabled)</label>
+                      </div>
+                    </div>
+                    <div class="inline-block inline-checkbox">
+                      <h4>Checkboxes inline</h4>
+                      <div class="inline-block">
+                        <input type="checkbox" name="check-box" id="CheckBox" />
+                        <label for="CheckBox">Default CheckBox</label>
+                      </div>
+                      <div class="inline-block">
+                        <input
+                          type="checkbox"
+                          name="check-box"
+                          id="CheckBox"
+                          checked
+                        />
+                        <label for="CheckBox">Default checkbox</label>
+                      </div>
+                      <div class="inline-block">
+                        <input
+                          type="checkbox"
+                          name="check-box"
+                          id="CheckBox"
+                          disabled
+                        />
+                        <label for="CheckBox">Default (disabled)</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="radioboxes">
+                <h3>Radios</h3>
+                <div>
+                  <div class="inline-block">
+                    <h4>Radios</h4>
+                    <div>
+                      <input type="radio" name="radio-box" id="RadioBox" />
+                      <label for="RadioBox">Default Radio</label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="radio-box"
+                        id="RadioBox"
+                        checked
+                      />
+                      <label for="RadioBox">Selected Radio</label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="radio-box"
+                        id="RadioBox"
+                        disabled
+                      />
+                      <label for="RadioBox">Disabled radio</label>
+                    </div>
+                  </div>
+                  <div class="inline-block inline-radios">
+                    <h4>Radios inline</h4>
+                    <div class="inline-block">
+                      <input type="radio" name="radio-box" id="RadioBox" />
+                      <label for="RadioBox">Default Radio</label>
+                    </div>
+                    <div class="inline-block">
+                      <input
+                        type="radio"
+                        name="radio-box"
+                        id="RadioBox"
+                        checked
+                      />
+                      <label for="RadioBox">Selected Radio</label>
+                    </div>
+                    <div class="inline-block">
+                      <input
+                        type="radio"
+                        name="radio-box"
+                        id="RadioBox"
+                        disabled
+                      />
+                      <label for="RadioBox">Disabled radio</label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3>Validation</h3>
+                  <div class="validation">
+                    <div>
+                      <label id="InputSuccess">Input Success</label><br />
+                      <input
+                        type="text"
+                        id="InputSuccess"
+                        name="success_input"
+                        class="input input-success"
+                      />
+                    </div>
+                    <div>
+                      <label id="InputError">Input Error</label><br />
+                      <input
+                        type="text"
+                        id="InputError"
+                        name="error_input"
+                        class="input input-error"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>
