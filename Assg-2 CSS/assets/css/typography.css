@@ -1,0 +1,41 @@
+.width-50 {
+  width: 50%;
+}
+.text-size {
+  font-size: medium;
+}
+.padding {
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+.secondary-heading {
+  font-size: x-large;
+}
+.lower-section > .primary-heading {
+  padding: 0.3rem 0;
+  border-bottom: 2px solid rgba(107, 117, 125, 0.3);
+}
+.tab {
+  margin: 1rem 0;
+  overflow: hidden;
+  border: 1px #ccc;
+  background: transparent;
+  border-style: inset;
+}
+.tab > button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: purple;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+  color: white;
+}

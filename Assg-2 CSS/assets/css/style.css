@@ -1,0 +1,106 @@
+:root {
+  /* Widths */
+  --container-width: 80%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+header {
+  background-color: rgba(235, 229, 252, 0.4);
+  height: 10rem;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--container-width);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.logo {
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  padding: 3rem 0;
+}
+
+nav > ul {
+  padding: 1.9rem 0;
+}
+
+ul > li {
+  list-style: none;
+  margin: 1rem 0.8rem;
+  padding: 1.2rem;
+}
+
+ul > li > a {
+  color: inherit;
+  font-size: 1.4rem;
+  color: var(--color-gray-600);
+  text-decoration: none;
+}
+
+.search-container {
+  padding: 3rem 0;
+}
+
+.search-container > input {
+  border: 2px solid var(--color-gray-600);
+  border-radius: 7px;
+  color: var(--color-gray-600);
+  height: 3.7rem;
+  opacity: 0.8;
+  padding: 1rem;
+}
+
+.search-container > button {
+  background-color: transparent;
+  border: 2px solid var(--color-success);
+  border-radius: 7px;
+  color: var(--color-success);
+  cursor: pointer;
+  height: 3.7rem;
+  padding: 1rem;
+}
+
+.primary-heading {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.container > .primary-heading {
+  padding: 3rem 0;
+  border-bottom: 2px solid rgba(107, 117, 125, 0.3);
+}
