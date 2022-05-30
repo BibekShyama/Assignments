@@ -1,0 +1,56 @@
+.row {
+  margin: 0 auto;
+  max-width: var(--grid-width);
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* selet class starting with 'col */
+.row [class^="col"] {
+  float: left;
+}
+
+.row [class^="col"]:not(:last-child) {
+  margin-right: var(--gutter-horizontal);
+}
+
+.row .col-1-of-12 {
+  width: calc((100% - 11 * var(--gutter-horizontal)) / 12);
+}
+
+.row .col-2-of-12 {
+  width: calc(
+    ((100% - 11 * var(--gutter-horizontal)) / 12) * 2 + var(--gutter-horizontal)
+  );
+}
+
+.row .col-3-of-12 {
+  width: calc(
+    ((100% - 11 * var(--gutter-horizontal)) / 12) * 3 + 2 *
+      var(--gutter-horizontal)
+  );
+}
+
+.row .col-4-of-12 {
+  width: calc(
+    ((100% - 11 * var(--gutter-horizontal)) / 12) * 4 + 3 *
+      var(--gutter-horizontal)
+  );
+}
+
+.row .col-5-of-12 {
+  width: calc(
+    ((100% - 11 * var(--gutter-horizontal)) / 12) * 5 + 4 *
+      var(--gutter-horizontal)
+  );
+}
+
+.row .col-6-of-12 {
+  width: calc(
+    ((100% - 11 * var(--gutter-horizontal)) / 12) * 6 + 5 *
+      var(--gutter-horizontal)
+  );
+}

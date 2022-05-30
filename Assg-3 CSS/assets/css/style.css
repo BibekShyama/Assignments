@@ -1,0 +1,103 @@
+.header {
+  height: 11.4rem;
+  padding: 3.2rem 4rem;
+  justify-content: space-between;
+}
+
+.logo > a {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.span {
+  color: var(--color-purple);
+}
+
+.navlist > li {
+  display: inline-block;
+  height: 2.4rem;
+  font-size: 1.6rem;
+}
+.navlist > li:first-child {
+  color: var(--color-purple);
+}
+
+nav > ul > li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.first-section-field {
+  margin: 7rem 0;
+  max-width: 50rem;
+}
+
+.button-section {
+  margin-top: 4.8rem;
+}
+
+.button-section > .btn {
+  margin-right: 1.2rem;
+}
+.second-section .row .secondary-heading {
+  text-align: center;
+}
+
+.second-section > .row > div {
+  text-align: center;
+}
+
+.image-container {
+  margin-top: 4rem;
+}
+
+.third-section {
+  background-color: #f8f8f8;
+  padding: 7.2rem 0;
+}
+
+.third-section-field {
+  width: 56rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.third-section .thumbnails {
+  margin-top: 4rem;
+}
+
+.third-section > .button-section {
+  margin: 7.2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color-footer);
+  color: white;
+}
+
+footer > .footer {
+  padding: 7.2rem 0;
+}
+.footer-heading > p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer > .copyright {
+  background-color: #23222f;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 1.9rem 0;
+  height: 5.6rem;
+}
+
+h4.footer {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.98rem;
+}
+
+footer .info .footer-heading {
+  float: left;
+  margin-right: 8.3rem;
+}
