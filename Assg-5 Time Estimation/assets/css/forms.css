@@ -1,0 +1,159 @@
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+.form-components {
+  border: 1px solid rgba(107, 117, 125, 0.3);
+  border-radius: 5px;
+  margin-right: 3.5rem;
+}
+
+.form-components > div {
+  border-bottom: 1px solid rgba(107, 117, 125, 0.3);
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.form-components > div:last-child {
+  content: "";
+  border-bottom: none;
+}
+
+.active {
+  background-color: #7749f8;
+  color: white;
+}
+
+.input-fields {
+  margin: 2rem;
+}
+
+.input-fields h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.905rem;
+  color: #152536;
+  margin-bottom: 1.6rem;
+}
+.input-fields > div > input,
+.input-fields > div > select,
+.input-fields > div > textarea {
+  /* border: 2px red solid; */
+  margin-bottom: 4.8rem;
+}
+
+.fields {
+  border: 1px solid rgba(107, 117, 125, 0.3);
+  border-radius: 5px;
+  width: 60%;
+  height: 4rem;
+  padding: 1rem;
+}
+
+input::placeholder {
+  color: rgba(107, 117, 125, 0.7);
+  font-size: 1.3rem;
+}
+
+select:focus,
+select:active {
+  border: 1px solid rgba(107, 117, 125, 0.3);
+  color: rgba(107, 117, 125, 0.7);
+}
+
+select > option {
+  color: rgba(107, 117, 125, 0.7);
+}
+
+textarea {
+  border: 1px solid rgba(107, 117, 125, 0.3);
+  border-radius: 5px;
+  color: rgba(107, 117, 125, 0.7);
+  font-size: 1.5rem;
+  width: 60%;
+  height: 13rem;
+  padding: 1rem;
+  resize: none;
+}
+
+.radioboxes {
+  /* border: 2px green solid; */
+  margin-left: 2rem;
+}
+.checkboxes h3,
+.radioboxes h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.905rem;
+}
+
+.checkboxes h4,
+.radioboxes h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #152536;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+}
+label {
+  /* border: 2px red solid; */
+  margin-bottom: 1.8rem;
+}
+input:checked {
+  /* border: 2px red solid; */
+  background-color: #7749f8;
+}
+.inline-checkbox,
+.inline-radios {
+  /* border: 2px red solid; */
+
+  position: absolute;
+  margin-left: 8.3rem;
+  margin-bottom: 1.8rem;
+}
+.validation-field {
+  /* border: 2px red solid; */
+  margin-top: 9.4rem;
+}
+
+.validation {
+  margin-bottom: 15rem;
+}
+.validation > div {
+  margin: 2rem 0;
+}
+
+.input {
+  border-radius: 5px;
+  width: 60%;
+  height: 4rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.input-success {
+  border: 2px solid #28a745;
+}
+
+.input-error {
+  border: 2px solid #dc3545;
+}
+
+.validation label {
+  font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+.secondary-heading > h3 {
+  color: #152536;
+  margin-top: 5.4rem;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.389rem;
+}
+.item-list {
+  /* border: 2px red solid; */
+  list-style-type: none;
+}
+.item-list > li {
+  border: 1px #dee2e6 solid;
+  border-bottom: none;
+  text-decoration: none;
+  width: 36.9rem;
+  height: 12.8rem;
+  font-size: medium;
+}
+.first-item > h4 {
+  /* border: 2px yellow solid; */
+  margin-top: 1.3rem;
+  margin-left: 1.6rem;
+}
+span {
+  /* border: 2px red solid; */
+  float: right;
+  margin-right: 2.8rem;
+  margin-top: 1.9rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.21rem;
+}
+.first-item > p {
+  /* border: 2px blue solid; */
+  margin-left: 1.6rem;
+}
+
+small {
+  margin-left: 1.6rem;
+  margin-bottom: 1.3rem;
+  opacity: 0.4;
+}
+.item-list > li:last-child {
+  border-bottom: 2px #dee2e6 solid;
+}
+.item-list > li:first-child {
+  background-color: var(--color-primary);
+  color: white;
+  border: 1px var(--color-primary) solid;
+  margin-top: 3.1rem;
+}
+.first-item:first-child > small {
+  /* border: 2px red solid; */
+  opacity: 1;
+}

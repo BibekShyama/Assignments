@@ -1,0 +1,9 @@
+table {
+  /* border: 2px red solid; */
+  margin: 10rem auto;
+}
+th,
+tr {
+  font-size: 3rem;
+  text-align: center;
+}
