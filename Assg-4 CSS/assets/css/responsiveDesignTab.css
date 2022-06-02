@@ -1,5 +1,8 @@
 /* FOR TAB : ABOVE 576px and BELOW 1200px */
 @media screen and (min-width: 576px) and (max-width: 1200px) {
+  .hero-image-1 {
+    display: none;
+  }
   .header {
     min-height: 11.4rem;
     padding: 3rem 3rem;
@@ -9,7 +12,10 @@
   .header .logo {
     float: none;
   }
-  .menu-icon {
+  input {
+    display: none;
+  }
+  .menu-btn {
     display: none;
   }
 
@@ -181,15 +187,7 @@
 
   .info .footer-heading {
     /* border: 2px green solid; */
-    float: none;
     display: inline-block;
-    margin: 0.5rem 0.5rem;
-  }
-  .info .footer-heading:not(:first-child) {
-    /* border: 2px blue solid; */
-    margin-top: 0;
-  }
-  .info .footer-heading:last-child {
-    margin-right: 0;
+    padding: 1rem;
   }
 }

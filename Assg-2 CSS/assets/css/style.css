@@ -1,4 +1,27 @@
 :root {
+  /* For colors*/
+  /* Primary Colors */
+  --color-primary: #7749f8;
+  --color-primary-dark: #5227cc;
+  --color-primary-light: #ebe5fc;
+
+  /* Secondary Colors */
+  --color-secondary: #007dff;
+  --color-secondary-dark: #54595e;
+  --color-secondary-light: #abb5be;
+
+  /* Status Colors */
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2bb;
+
+  /* Gray Colors */
+  --color-gray-600: #6b757d;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
+
   /* Widths */
   --container-width: 80%;
 }
@@ -89,8 +112,9 @@ ul > li > a {
 }
 
 .search-container > button {
+  border: 2px red solid;
   background-color: transparent;
-  border: 2px solid var(--color-success);
+  border: 2px var(--color-success) solid;
   border-radius: 7px;
   color: var(--color-success);
   cursor: pointer;

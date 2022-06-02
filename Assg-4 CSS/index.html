@@ -36,19 +36,16 @@
     <header>
       <div class="header clearfix">
         <div class="logo float-left">
-          <a href="#" style="display: block"
-            ><span class="span">Awww</span>some
-            <div class="menu-icon">
-              <button onclick="showHideMenu()">
-                <img
-                  src="./assets/images/menu-icon.png"
-                  alt="menu-icon"
-                  width="30"
-                  height="30"
-                />
-              </button></div
-          ></a>
+          <a href="#"><span class="span">Awww</span>some </a>
         </div>
+        <input type="checkbox" id="checkbox" />
+        <div class="menu-btn">
+          <label for="checkbox">
+            <span class="menu-icon">&#9776;</span>
+            <span class="cross-icon">&#215;</span>
+          </label>
+        </div>
+
         <nav class="navbar float-right">
           <ul class="navlist">
             <li><a href="#">Home</a></li>
@@ -65,7 +62,15 @@
     <main style="margin-top: 1.2rem">
       <section class="first-section">
         <div class="row">
-          <div class="col-6-of-12">
+          <aside class="hero-image-1 col-6-of-12 float-right">
+            <img
+              src="./assets/images/hero image.png"
+              alt="hero image"
+              width="578"
+              height="584"
+            />
+          </aside>
+          <div class="col-6-of-12 float-left">
             <div class="first-section-field">
               <div>
                 <h1 class="primary-heading">
@@ -92,7 +97,7 @@
               </div>
             </div>
           </div>
-          <aside class="col-6-of-12">
+          <aside class="col-6-of-12 hero-image-2">
             <img
               src="./assets/images/hero image.png"
               alt="hero image"
@@ -263,6 +268,7 @@
             <p>Popular</p>
             <p>Customers</p>
             <p>Features</p>
+            <p style="visibility: hidden">hidden</p>
           </div>
           <div class="footer-heading">
             <h4 class="footer">SUPPORT</h4>
@@ -270,6 +276,7 @@
             <p>Support</p>
             <p>Customer Service</p>
             <p>Guide</p>
+            <p style="visibility: hidden">hidden</p>
           </div>
         </div>
       </div>

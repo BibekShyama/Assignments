@@ -1,11 +1,18 @@
 /* FOR DESKTOP : ABOVE 1200px */
 @media screen and (min-width: 1200px) {
+  .hero-image-1 {
+    display: none;
+  }
+
   .header {
     min-height: 11.4rem;
     padding: 3.2rem 4rem;
     justify-content: space-between;
   }
-  .menu-icon {
+  input {
+    display: none;
+  }
+  .menu-btn {
     display: none;
   }
   .logo > a {

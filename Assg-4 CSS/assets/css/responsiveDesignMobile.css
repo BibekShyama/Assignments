@@ -1,5 +1,9 @@
 /************* FOR MOBILES : WIDTH BELOW 576px **********/
 @media screen and (max-width: 576px) {
+  .hero-image-2 {
+    /* border: 2px red solid; */
+    display: none !important;
+  }
   .header {
     /* border: 2px red solid; */
     min-height: 11.4rem;
@@ -17,12 +21,38 @@
     /* border: 2px green solid; */
     width: fit-content;
   }
-
-  .menu-icon {
-    /* border: 2px maroon solid; */
+  input {
+    display: none;
+  }
+  .menu-btn {
+    /* border: 2px red solid; */
+    font-size: 3rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 2.3rem;
+    padding: 0.4rem;
+  }
+  .navbar {
+    display: none;
+    float: none;
+  }
+  #checkbox:checked ~ .navbar {
+    display: block;
+  }
+  #checkbox:checked ~ .menu-btn .menu-icon {
+    display: none;
+  }
+  #checkbox:not(:checked) ~ .menu-btn .menu-icon {
+    display: block;
+  }
+  #checkbox:not(:checked) ~ .menu-btn .cross-icon {
+    display: none;
+  }
+  /* .menu-icon {
+    border: 2px maroon solid;
     display: inline-block;
     margin-left: 13.3rem;
-  }
+  } */
 
   .logo > a {
     display: block;
@@ -188,17 +218,16 @@
     margin: 5px;
     padding: 7.2rem 0;
   }
-  .info {
-    /* border: 2px red solid; */
-    padding: 0;
-  }
+  /* .info {
+    border: 2px red solid;
+  } */
   .info .footer-heading {
     /* border: 2px green solid; */
+    position: relative;
+    display: inline-block;
+    padding: 2rem;
   }
-  .info .footer-heading:nth-child(2) {
-    /* border: 2px yellow solid; */
-    margin-top: 10px;
-  }
+
   .col-6-of-12 {
     display: block;
     width: 100% !important;
@@ -224,24 +253,5 @@
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.98rem;
-  }
-
-  .info .footer-heading {
-    /* border: 2px red solid; */
-    margin-top: 4.8rem;
-    float: none;
-    display: inline-block;
-  }
-  .info .footer-heading:nth-child(2) {
-    margin-left: 8.9rem;
-
-    margin-top: 0;
-  }
-  .info .footer-heading:last-child {
-    display: block;
-    margin-top: 4.8rem;
-  }
-  .info .footer-heading:last-child {
-    margin-right: 0;
   }
 }
