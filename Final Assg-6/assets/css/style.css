@@ -1,0 +1,125 @@
+.Header {
+  /* border: 2px maroon solid; */
+  background-color: #f9f1e7;
+  width: 100%;
+  height: 30rem;
+}
+.Header__logo {
+  /* border: 2px yellow solid; */
+  font-size: 3rem;
+  margin: 4.8rem 4.1rem 0 10rem;
+}
+.Header__logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/* h1 {
+  border: 2px maroon solid;
+} */
+
+.Header__navbar {
+  /* border: 2px red solid; */
+  margin-right: 4.3rem;
+  /* height: 2.4rem; */
+}
+
+.Header__navbar__navlist > li {
+  /* border: 2px green solid; */
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.Header__navbar__navlist > li > a {
+  color: #3a3a3a;
+}
+.Header__navbar__navlist > li > a:hover {
+  font-size: large;
+}
+
+.drop-down {
+  margin-left: 1.217rem;
+  margin-right: 4.417rem;
+  border: 0.18rem none;
+  color: #3a3a3a;
+}
+.Header__search-wrapper {
+  /* border: 2px green solid; */
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.Header__search-wrapper > input {
+  /* border: 2px red solid; */
+  border: none;
+  border-radius: 0.5rem;
+  width: 47.3rem;
+  height: 4.5rem;
+  color: white;
+}
+.Header__search-wrapper > img {
+  /* border: 2px blue solid; */
+  color: #333333;
+  width: 1.333rem;
+  height: 1.333rem;
+  margin: 0 1.533rem;
+}
+/* .Header__icon-wrapper {
+  border: 2px red solid;
+} */
+.Header__icon-wrapper > i {
+  /* border: 2px blue solid; */
+  font-size: 2rem;
+  margin-left: 3.3rem;
+  color: darkgrey;
+  /* border: 1px black solid; */
+}
+.Header__icon-wrapper > i:hover {
+  color: #d8d8d8;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.Header select {
+  background-color: #f9f1e7;
+}
+.Header__indicator {
+  /* border: 2px red solid; */
+  margin-top: 9rem;
+  font-size: 2rem;
+}
+.Header__indicator__ellipsis {
+  /* border: 2px green solid; */
+  width: fit-content;
+  margin-left: 70rem;
+}
+.Header__indicator__ellipsis > i:first-child {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+.Header__indicator__ellipsis > i {
+  /* border: 2px blue solid; */
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: #d8d8d8;
+}
+.Header__indicator__ellipsis > i:hover {
+  color: #e89f71;
+  cursor: pointer;
+}
+.Hearder__indicator__next-prev {
+  /* border: 2px blue solid; */
+  margin-left: 43rem;
+}
+.Hearder__indicator__next-prev > i {
+  /* border: 2px red solid; */
+  font-size: 4rem;
+  color: #e89f71;
+  margin-right: 0.8rem;
+}
+.Hearder__indicator__next-prev > i:hover {
+  color: #de7736;
+  cursor: pointer;
+}
+.Hearder__indicator__next-prev > i:first-child {
+  opacity: 0.4;
+}

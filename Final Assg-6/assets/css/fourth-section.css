@@ -1,0 +1,135 @@
+.Main-wrapper__fourth-section {
+  /* border: 2px red solid; */
+  height: 67rem;
+  background-color: #fcf8f3;
+  margin-top: 4.4rem;
+}
+.inspiration-content {
+  /* border: 2px blue solid; */
+  margin-left: 10rem;
+  width: 37.8rem;
+  margin-top: 22.3rem;
+}
+.inspiration-heading {
+  border: 2px gren solid;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #3a3a3a;
+}
+.inspiration-content > p {
+  /* border: 2px green solid; */
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #616161;
+}
+.explore-more-btn {
+  border: 1px #e89f71 solid;
+  width: 17.6rem;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: white;
+  background-color: #e89f71;
+  margin-top: 2.4rem;
+}
+.explore-more-btn:hover {
+  cursor: pointer;
+  background-color: #de7736;
+}
+.first-image {
+  /* border: 2px green solid; */
+  width: fit-content;
+}
+.first-image > img {
+  /* border: 2px green solid; */
+  position: relative;
+  margin-left: 8.6rem;
+  margin-top: 4.4rem;
+}
+.first-image__card {
+  /* border: 2px red solid; */
+  background-color: rgba(255, 255, 255, 0.72);
+  position: absolute;
+  top: 272rem;
+  left: 64rem;
+}
+.room-number {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #616161;
+  margin-left: 5.6rem;
+}
+.room-info {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #616161;
+  margin-right: 5rem;
+}
+.first-image__card > img {
+  border: 1px;
+  color: #616161;
+  margin: 4.4rem 0.8rem 0 0.8rem;
+}
+.quotes > h4 {
+  /* border: 2px blue solid; */
+  font-size: 2.8rem;
+  line-height: 3.36rem;
+  color: #3a3a3a;
+  margin: 0.8rem 3.2rem 3.2rem 3.2rem;
+}
+.arrow {
+  /* border: 1px blue solid; */
+  background-color: #e89f71;
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #e89f71;
+  position: absolute;
+  top: 7rem;
+  left: 23.5rem;
+}
+
+.arrow > i {
+  color: white;
+  font-size: 1.6rem;
+  margin: 1.8rem 1.8rem 1.8rem 1.5rem;
+}
+.indicator {
+  /* border: 2px red solid; */
+  overflow: hidden;
+}
+/* .indicator-collection {
+  border: 2px green solid;
+} */
+.indicator > i {
+  /* border: 2px blue solid; */
+  font-size: 2rem;
+
+  /* padding: 1rem; */
+  margin-left: 2.4rem;
+  margin-top: 4rem;
+  margin-bottom: 7.5rem;
+  color: #d8d8d8;
+
+  /* margin-bottom: 7.3rem; */
+}
+.indicator > i:first-child {
+  margin-left: 9rem;
+  color: #e89f71;
+}
+.indicator > i:hover {
+  cursor: pointer;
+  color: #de7736;
+}
+
+.second-and-third-image > img:first-child {
+  margin: 0 3.2rem;
+}
+.Main-wrapper__fourth-section img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

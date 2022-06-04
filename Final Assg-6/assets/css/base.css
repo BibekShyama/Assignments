@@ -1,0 +1,29 @@
+:root {
+  /* For color */
+  --color-primary: #e89f71;
+  --color-secondary: #f9f1e7;
+  --color-secondary-light: #fcf8f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/SVN-Gilroy\ Regular.otf");
+}
+
+html,
+body {
+  font-size: 62.5%; /*1rem=10px; 10/16=62.5%*/
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}

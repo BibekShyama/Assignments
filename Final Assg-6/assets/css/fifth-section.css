@@ -1,0 +1,113 @@
+.Main-wrapper__fifth-section {
+  /* border: 2px yellow solid; */
+}
+.Main-wrapper__fifth-section .primary-heading {
+  /* border: 2px red solid; */
+  margin-top: 4.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.fifth-section-content {
+  /* border: 2px red solid; */
+  display: block;
+}
+.card-collection {
+  /* border: 2px blue solid; */
+  margin-left: 10rem;
+  margin-right: 10.3rem;
+  max-width: fit-content;
+  position: relative;
+}
+.card-collection .card {
+  /* border: 2px green solid; */
+  max-width: 39.1rem;
+  overflow: hidden;
+}
+.card-collection .card:nth-child(even) {
+  margin: 0 3.2rem;
+}
+
+.card > h5 {
+  /* border: 2px red solid; */
+  font-size: 2.4rem;
+  line-height: 2.88rem;
+  color: #3a3a3a;
+  max-width: 24.7rem;
+  margin: 1.6rem 12.8rem 0.8rem 1.6rem;
+}
+.card > small {
+  /* border: 2px cyan solid; */
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #898989;
+  margin: 0 30rem 1.6rem 1.6rem;
+}
+
+.second-card > h5 {
+  /* border: 2px red solid; */
+  max-width: 34rem;
+}
+.third-card {
+  /* border: 2px green solid; */
+  /* background-color: #898989; */
+  margin-bottom: 2rem;
+  /* height: 37rem; */
+  /* position: relative; */
+}
+.third-content {
+  /* border: 2px cyan solid; */
+  max-width: 34.4rem;
+}
+.third-content > h5 {
+  /* border: 2px red solid; */
+  font-size: 2.4rem;
+  line-height: 2.88rem;
+  color: #3a3a3a;
+  /* max-width: 24.7rem; */
+  /* margin: 0 12.8rem 0.8rem 1.6rem; */
+}
+.third-content > small {
+  /* border: 2px red solid; */
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #898989;
+
+  /* margin: 0 30rem 1.6rem 1.6rem; */
+}
+
+/* .third-card > i {
+  border: 2px red solid;
+  color: orange;
+  font-size: 2rem;
+  float: right;
+  margin-top: -5rem;
+} */
+.fifth-section-indicator {
+  /* border: 2px red solid; */
+  max-width: fit-content;
+  margin-left: 45%;
+  margin-bottom: 5rem;
+}
+.fifth-section-indicator > i {
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: #898989;
+}
+.fifth-section-indicator > i:nth-child(2) {
+  font-size: 2.7rem;
+  padding: 1rem;
+  color: #e89f71;
+}
+.fifth-section-indicator > i:hover {
+  cursor: pointer;
+  color: #e89f71;
+}
+.fifth-section-indicator > i:nth-child(2):hover {
+  color: #de7736;
+}
+.up-arrow-icon,
+.down-arrow-icon {
+  display: none;
+}

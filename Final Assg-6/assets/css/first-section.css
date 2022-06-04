@@ -1,0 +1,96 @@
+.Main-wrapper__first-section__background {
+  /* border: 2px blue solid; */
+  position: relative;
+}
+.Main-wrapper__first-section__background > img {
+  /* border: 2px green solid; */
+  height: 55.3rem;
+}
+.Main-wrapper__first-section__background > img:nth-child(2) {
+  /* border: 2px yellow solid; */
+  width: 93.4rem;
+  margin: 0 2rem;
+}
+.Main-wrapper__first-section__background > img:last-child {
+  /* border: 2px red solid; */
+  width: 16.5%;
+}
+
+.Main-wrapper__first-section__card {
+  /* border: 2px green solid; */
+  width: 49.4rem;
+  /* z-index: 9; */
+  position: absolute;
+  top: 20rem;
+  left: 15rem;
+  opacity: 0.9;
+  background-color: white;
+}
+.Main-wrapper__first-section__card:hover {
+  opacity: 1;
+}
+.Main-wrapper__first-section__card__primary-heading > h1 {
+  font-size: 5.6rem;
+  line-height: 6.72rem;
+  color: #3a3a3a;
+  padding: 6rem;
+}
+.Main-wrapper__first-section__card__primary-heading > p {
+  /* border: 2px red solid; */
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #898989;
+  margin: 0 7rem 0 6rem;
+  width: 33rem;
+}
+.Main-wrapper__first-section__card__primary-heading .btn {
+  /* border: 2px red solid; */
+  margin-bottom: 6rem;
+}
+.Main-wrapper__first-section__second-card {
+  /* border: 2px red solid; */
+  width: 29.4rem;
+  height: 14.8rem;
+  background-color: rgba(255, 255, 255, 0.72);
+  position: absolute;
+  top: 68rem;
+  right: 5rem;
+}
+.Main-wrapper__first-section__second-card:hover {
+  background-color: white;
+}
+.Main-wrapper__first-section__second-card__secondary-heading > h4 {
+  /* border: 2px blue solid; */
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.36rem;
+  color: #3a3a3a;
+  width: 10.9rem;
+  height: 3.4rem;
+  margin: 2.4rem 16.1rem 0.4rem 2.4rem;
+}
+.Main-wrapper__first-section__second-card__secondary-heading > small {
+  /* border: 2px maroon solid; */
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #616161;
+  display: block;
+  margin: 0.4rem 10.5rem 0.8rem 2.4rem;
+}
+.Main-wrapper__first-section__second-card__secondary-heading > p {
+  /* border: 2px green solid; */
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #3a3a3a;
+  display: inline-block;
+  margin: 0.8rem 0 2.4rem 2.4rem;
+}
+.Main-wrapper__first-section__second-card__secondary-heading > i {
+  /* border: 2px darkcyan solid; */
+  height: 1.164rem;
+  width: 1.52rem;
+  margin-left: 9.741rem;
+}
