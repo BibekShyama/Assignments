@@ -1,6 +1,6 @@
-.Main-wrapper__sixth-section {
-  /* border: 2px gold solid; */
-}
+/* .Main-wrapper__sixth-section {
+  border: 2px gold solid;
+} */
 .Main-wrapper__sixth-section__heading {
   /* border: 2px red solid; */
   text-align: center;
@@ -33,6 +33,10 @@
   /* border: 2px green solid; */
   margin: 0 1.6rem;
   position: absolute;
+}
+.Main-wrapper__sixth-section__image-collection > img:hover {
+  cursor: "pointer";
+  transform: scale(1.1);
 }
 
 .image-1 {
@@ -76,10 +80,4 @@
 .image-9 {
   right: 0;
   top: 46rem;
-}
-.Main-wrapper__sixth-section__bottom-line {
-  border-top: 1px red solid;
-  font-size: 2rem;
-  max-width: 123.7rem;
-  margin: 0 10rem;
 }
