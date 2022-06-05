@@ -1,0 +1,22 @@
+.heading {
+  /* border: 2px blue solid; */
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 4.48rem;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.heading > h4 {
+  color: #696984;
+  letter-spacing: 0.02em;
+}
+.logo-collection {
+  /* border: 2px green solid; */
+  margin-top: 4.29rem;
+  display: flex;
+  justify-content: center;
+}
+.logo-collection > img {
+  padding: 0 3rem;
+}

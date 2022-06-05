@@ -1,0 +1,65 @@
+.Main__fifth-section {
+  /* border: 2px blue solid; */
+  display: flex;
+}
+.Main__fifth-section__left-content {
+  /* border: 2px green solid; */
+  margin-left: 5%;
+  margin-right: 15rem;
+}
+.Main__fifth-section__left-content > h2 {
+  /* border: 2px cyan solid; */
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 5.76rem;
+  color: #2f327d;
+  max-width: 65.5rem;
+}
+.Main__fifth-section__left-content > h2 > span {
+  color: #f48c06;
+}
+.Main__fifth-section__left-content > p {
+  font-size: 2.4rem;
+  line-height: 4.32rem;
+  font-weight: 400;
+  color: #696984;
+  max-width: 73rem;
+  margin: 3rem 0;
+}
+.Main__fifth-section__left-content > a {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.96rem;
+  color: #696984;
+}
+/* .card-wrapper {
+  border: 2px cyan solid;
+} */
+.blue-rectangle {
+  /* border: 2px red solid; */
+  z-index: -1;
+  position: relative;
+  top: -60rem;
+  left: -25rem;
+}
+.orange-rectangle {
+  /* border: 2px blue solid; */
+  position: relative;
+  top: -16rem;
+  left: 50rem;
+  z-index: -1;
+}
+.yellow-ellipse {
+  position: relative;
+  top: 6rem;
+  z-index: -1;
+}
+.small-yellow-ellipse {
+  position: relative;
+  left: 55rem;
+  top: 10rem;
+}
+.card-image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

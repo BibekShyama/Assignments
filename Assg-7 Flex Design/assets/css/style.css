@@ -1,0 +1,137 @@
+@media screen and (min-width: 1024px) {
+  .Header {
+    /* border: 2px red solid; */
+    display: flex;
+  }
+  .Header > img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .front {
+    position: absolute;
+    display: flex;
+  }
+  .Header__logo {
+    /* border: 2px blue solid; */
+    padding-top: 4rem;
+    margin-left: 10rem;
+  }
+
+  .Header__logo__content > h1 {
+    /* border: 2px cyan solid; */
+    position: relative;
+    top: -7rem;
+    left: 2.8rem;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    color: #113c49;
+  }
+  .Header__navbar {
+    /* border: 2px blue solid; */
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    margin-left: 30%;
+  }
+  .Header__navbar__navlist {
+    /* border: 2px green solid; */
+    display: flex;
+  }
+  .Header__navbar__navlist > li {
+    /* border: 2px red solid; */
+    margin-right: 8rem;
+    min-width: fit-content;
+  }
+  .Header__navbar__navlist > li > a {
+    /* border: 2px green solid; */
+    color: #113c49;
+    font-size: 2.2rem;
+    font-weight: 400;
+    /* width: fit-content; */
+  }
+  .Header__navbar > button {
+    /* border: 2px green solid; */
+    padding: 1.3rem 3rem;
+    border-radius: 8rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.3rem;
+    letter-spacing: 2%;
+    color: #6c6c6c;
+  }
+  .login {
+    border: none;
+    margin-right: 3.4rem;
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    background-color: white;
+  }
+  .signup {
+    border: none;
+    background-color: #f48c06;
+    color: white;
+    min-width: fit-content;
+  }
+  .left-side-content {
+    /* border: 2px blue solid; */
+    display: block;
+    font-size: 2rem;
+    position: absolute;
+    top: 25rem;
+    margin-left: 8rem;
+  }
+  .left-side-content > h1 {
+    /* border: 2px red solid; */
+    max-width: 68.1rem;
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 8.1rem;
+  }
+  .left-side-content > h1 > span {
+    color: #f48c06;
+  }
+  .left-side-content > p {
+    /* border: 2px green solid; */
+    margin-top: 3.4rem;
+    max-width: 52.3rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    size: 2.4rem;
+    line-height: 3.4rem;
+    color: #464646;
+  }
+  .button-section {
+    /* border: 2px red solid; */
+    display: flex;
+    margin-top: 5.2rem;
+    align-items: center;
+    width: fit-content;
+  }
+  .button-section > img {
+    border: 2px green solid;
+    border-radius: 5rem;
+    width: 6rem;
+    height: auto;
+    margin: 0 3.2rem 0 4rem;
+  }
+  .join-for-free-btn {
+    border: none;
+    background-color: #f48c06;
+    color: white;
+    min-width: fit-content;
+    padding: 1.3rem 3rem;
+    border-radius: 8rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.3rem;
+    letter-spacing: 2%;
+  }
+  .button-section > p {
+    color: #252641;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+  }
+}

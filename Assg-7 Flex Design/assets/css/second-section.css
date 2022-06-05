@@ -1,0 +1,29 @@
+/* .Main__second-section__content {
+  border: 2px red solid;
+} */
+.Main__second-section__content > h2 {
+  /* border: 2px blue solid; */
+  font-size: 3.6rem;
+  line-height: 6.48rem;
+  font-weight: 600;
+  color: #f48c06;
+  margin-top: 16.85rem;
+  display: flex;
+  justify-content: center;
+}
+.Main__second-section__content > h2 > span {
+  font-weight: 700;
+  color: #2f327d;
+  padding-right: 1rem;
+}
+.Main__second-section__content > p {
+  /* border: 2px green solid; */
+
+  color: #696984;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 4.32rem;
+  max-width: 83.7rem;
+  text-align: center;
+  margin: 2rem auto;
+}
