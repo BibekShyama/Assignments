@@ -1,0 +1,149 @@
+.Main__tweleventh-section {
+  /* border: 2px blue solid; */
+  display: flex;
+  /* flex-direction: row-reverse; */
+  margin-top: 12rem;
+}
+.left-content {
+  /* border: 2px red solid; */
+  margin: 0 9rem;
+}
+.testimonial {
+  /* border: 2px red solid; */
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+.testimonial > small {
+  /* border: 2px green solid; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.2em;
+
+  color: #525596;
+}
+.left-content > h2 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 8.2rem;
+
+  color: #2f327d;
+}
+.left-content > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 160%;
+  width: 60.7rem;
+  margin: 2.6rem 0;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+.last-paragraph {
+  /* border: 2px red solid; */
+  margin-top: 4.6rem;
+  margin-bottom: 4.3rem;
+}
+.testimonial__btn-section {
+  /* border: 2px red solid; */
+  display: flex;
+  justify-content: center;
+}
+.testimonial__btn-section > button {
+  border: 1px #f48c06 solid;
+  background-color: white;
+  border-radius: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #f48c06;
+  padding: 1rem;
+}
+.testimonial__btn-section > button > img {
+  margin-left: 2rem;
+  height: 5rem;
+}
+.testimonial__btn-section > button:hover {
+  cursor: pointer;
+  background-color: #f48c06;
+  color: white;
+}
+.testimonial__btn-section > button > img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.tweleventh-section__card-wrapper {
+  /* border: 2px cyan solid; */
+  /* margin-left: 2rem; */
+}
+.smiling-women {
+  /* border: 2px green solid; */
+  z-index: -1;
+}
+.rectangle-card-content {
+  border: 2px white solid;
+  border-radius: 2rem;
+  background-color: white;
+  max-width: 55rem;
+  position: relative;
+  top: -12rem;
+  left: 2rem;
+}
+
+.rectangle-card-content > p {
+  /* border: 2px blue solid; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 180%;
+  width: 45rem;
+  padding: 1rem;
+
+  letter-spacing: 0.02em;
+
+  color: #5f5f7e;
+}
+.rectangle-bottom-content {
+  /* border: 2px green solid; */
+  display: flex;
+}
+.rectangle-bottom-content > p {
+  /* border: 2px blueviolet solid; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 180%;
+  /* or 43px */
+
+  color: #5f5f7e;
+  margin-left: 2rem;
+}
+.review {
+  /* border: 2px blue solid; */
+  margin-left: 20rem;
+}
+
+.review > small {
+  display: block;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 180%;
+  /* or 32px */
+
+  letter-spacing: 0.02em;
+
+  color: #80819a;
+}

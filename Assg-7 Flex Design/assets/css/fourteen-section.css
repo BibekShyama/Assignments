@@ -1,0 +1,105 @@
+.Main__fourteen-section {
+  /* border: 2px red solid; */
+  display: flex;
+  margin: 10rem 2rem 0 2rem;
+}
+.Main__fourteen-section__left-content {
+  /* border: 2px blue solid; */
+  width: 60.9rem;
+}
+/* .description {
+  border: 2px green solid;
+} */
+.fourteen-section-btn {
+  border: 1px #f4c467 solid;
+  background: #f4c467;
+  border-radius: 8rem;
+  width: 13rem;
+
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 180%;
+
+  letter-spacing: 0.02em;
+
+  color: #252641;
+  margin: 4rem 0 2rem 0;
+}
+.description > h3 {
+  /* max-width: 60.9rem; */
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 180%;
+  /* or 47px */
+
+  color: #252641;
+}
+.description > p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 180%;
+  margin: 2rem 0;
+
+  letter-spacing: 0.02em;
+
+  color: #696984;
+}
+.description > a {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 180%;
+  /* identical to box height, or 36px */
+
+  letter-spacing: 0.02em;
+
+  color: #696984;
+}
+/* .Main__fourteen-section__right-content {
+  border: 2px blue solid;
+  
+} */
+.card-picture {
+  /* border: 2px cyan solid; */
+  display: flex;
+  margin: 1rem;
+}
+.summary {
+  /* border: red solid; */
+  margin-left: -6rem;
+}
+.summary > h3 {
+  /* border: 2px green solid; */
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 180%;
+  color: #252641;
+  width: 47.7rem;
+}
+.summary > p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 180%;
+  width: 47.7rem;
+  /* or 36px */
+
+  letter-spacing: 0.02em;
+  margin-top: 2rem;
+
+  color: #696984;
+}
+
+.btn-2 {
+  border: 1px #f4c467 solid;
+  background-color: #f4c467;
+  border-radius: 8rem;
+  z-index: 2;
+  height: 3.5rem;
+  width: 10rem;
+  position: relative;
+  top: 16rem;
+  left: -11rem;
+  font-size: 1rem;
+  line-height: 2.7rem;
+  letter-spacing: 2%;
+}

@@ -1,0 +1,40 @@
+.Main__tenth-section {
+  /* border: 2px blue solid; */
+  display: flex;
+  margin-top: 15rem;
+}
+.Main__tenth-section__left-content {
+  /* border: 2px green solid; */
+
+  margin: 10rem 15rem 0 5rem;
+}
+.Main__tenth-section__left-content > h2 {
+  /* border: 2px cyan solid; */
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 6.4rem;
+  color: #2f327d;
+  max-width: 42rem;
+}
+.Main__tenth-section__left-content > h2 > span {
+  color: #f48c06;
+}
+.Main__tenth-section__left-content > p {
+  font-size: 2.2rem;
+  line-height: 3.96rem;
+  font-weight: 400;
+  color: #696984;
+  max-width: 73rem;
+  margin: 3rem 0;
+  letter-spacing: 2%;
+}
+.Main__tenth-section__left-content > a {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.96rem;
+  color: #696984;
+}
+.Main__tenth-section__card-wrapper > img {
+  /* border: 2px red solid; */
+  width: 100%;
+}
