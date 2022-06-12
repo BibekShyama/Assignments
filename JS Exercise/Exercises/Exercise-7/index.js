@@ -39,4 +39,5 @@ var points = [
   { x: 600, y: 70 },
 ];
 
+
 plot(points);
