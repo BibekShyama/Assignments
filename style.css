@@ -26,7 +26,8 @@ a {
 }
 .Header > h1 {
   /* border: 2px cyan solid; */
-  margin: 0 24%;
+  display: flex;
+  justify-content: center;
 }
 
 /* .Header > h1 > span {
